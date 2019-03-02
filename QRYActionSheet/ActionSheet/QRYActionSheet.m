@@ -19,9 +19,9 @@
 
 #define     QRYColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
 
-#define     COLOR_BACKGROUND            [UIColor colorWithWhite:0.0 alpha:0.4]      ///MARK: 背景颜色
+#define     COLOR_BACKGROUND            [UIColor colorWithWhite:0.0 alpha:0.1]      ///MARK: 背景颜色
 #define     COLOR_DESTRUCTIVE_TITLE     [UIColor redColor]                          ///MARK: 确定颜色
-#define     COLOR_GRAYLINE              [UIColor colorWithWhite:0.5 alpha:0.3]     ///MARK: 线颜色
+#define     COLOR_GRAYLINE              [UIColor colorWithWhite:0.0 alpha:0.1]     ///MARK: 线颜色
 #define     COLOR_TABLEVIEW_BG          QRYColor(160, 160, 160, 1.0)               ///TableView背景颜色
 
 @interface QRYActionSheet() < UITableViewDelegate,UITableViewDataSource>
